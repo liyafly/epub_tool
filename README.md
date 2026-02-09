@@ -157,7 +157,19 @@ UI操作演示
 [点击以查看](./CHANGELOG.md)
 
 
-## Ⅴ 鸣谢<br>
+## Ⅴ Fork 和修改说明<br>
+本项目采用 MIT 许可证，你可以自由地 fork 并进行任何修改！
+
+**想了解更多关于 fork 和修改的信息？** 请查看 [FORK.md](./FORK.md) 文件，里面详细说明了：
+- 你拥有哪些权利
+- 如何正确地修改和分发
+- Fork 后的最佳实践
+- 常见问题解答
+
+简单来说：**可以大刀阔斧地修改！** 只需保留版权声明和许可证文本即可。✨
+
+
+## Ⅵ 鸣谢<br>
 感谢以下用户对此项目的贡献：
 - [遥遥心航](https://tieba.baidu.com/home/main?id=tb.1.7f262ae1.5_dXQ2Jp0F0MH9YJtgM2Ew)
 - [lgernier](https://github.com/lgernierO)<br>
