@@ -139,10 +139,10 @@ UI操作演示
 <details>
   <summary>epub无法正常规范/混淆/反混淆</summary><br>
   <p>
-    1、优先解压文件，查看其中content.opf文件 或 使用本工具中的“格式化”按钮，查看日志文件，检查epub是否存在问题；删除或修复存在问题的文件（如content.opf）。若无法解决，在Issues区提交issue并附带原文件。<br>样例：[https://github.com/cnwxi/epub_tool/issues/8 https://github.com/cnwxi/epub_tool/issues/10 https://github.com/cnwxi/epub_tool/issues/24]
+    1、优先解压文件，查看其中content.opf文件 或 使用本工具中的“格式化”按钮，查看日志文件，检查epub是否存在问题；删除或修复存在问题的文件（如content.opf）。若无法解决，在Issues区提交issue并附带原文件。<br>样例：[https://github.com/liyafly/epub-tools/issues/8 https://github.com/liyafly/epub-tools/issues/10 https://github.com/liyafly/epub-tools/issues/24]
   </p>
   <p>
-    2、若下载文件名带“精品”二字，且解压后文件夹内包含“/META-INF/encryption.xml”，检查此文件内是否有“ZhangYue.Inc”字样。若满足则此文件为掌阅加密书籍，为规避版权问题，此处不提供解密程序，请使用「掌阅」打开阅读。<br>样例：[https://github.com/cnwxi/epub_tool/issues/19]
+    2、若下载文件名带“精品”二字，且解压后文件夹内包含“/META-INF/encryption.xml”，检查此文件内是否有“ZhangYue.Inc”字样。若满足则此文件为掌阅加密书籍，为规避版权问题，此处不提供解密程序，请使用「掌阅」打开阅读。<br>样例：[https://github.com/liyafly/epub-tools/issues/19]
   </p>
 </details>
 

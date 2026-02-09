@@ -122,7 +122,7 @@ class ModernEpubTool(BaseClass):
         link_lbl.pack(side=BOTTOM, pady=20)
         link_lbl.bind(
             "<Button-1>",
-            lambda e: webbrowser.open("https://github.com/cnwxi/epub_tool"),
+            lambda e: webbrowser.open("https://github.com/liyafly/epub-tools"),
         )
 
         # ================= 主内容区 =================

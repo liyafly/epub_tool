@@ -64,6 +64,6 @@ CI配置文件更新。<br>
 ### 2024.05.16<br>
 更改文件输出路径。<br>
 ### 2024.05.09<br>
-针对多看~slim文件进行修改，处理html中使用`../`、`./`、`/`开头的链接。https://github.com/cnwxi/epub_tool/issues/1<br>
+针对多看~slim文件进行修改，处理html中使用`../`、`./`、`/`开头的链接。https://github.com/liyafly/epub-tools/issues/1<br>
 ### 2024.04.23<br>
 初始化仓库。<br>

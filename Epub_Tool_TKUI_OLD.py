@@ -57,7 +57,7 @@ intro_label.pack(side=tk.TOP)
 
 
 def open_link(event):
-    webbrowser.open_new("https://github.com/cnwxi/epub_tool")
+    webbrowser.open_new("https://github.com/liyafly/epub-tools")
 
 
 style.configure(
