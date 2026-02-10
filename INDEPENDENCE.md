@@ -20,9 +20,6 @@
 - 仅保留 Python 的字体混淆功能
 - 提供 CLI 和 GUI 双界面
 
-### 仓库描述建议
-
-建议更新 GitHub 仓库描述以强调这是一个独立项目。
 
 ---
 
@@ -46,6 +43,3 @@ For future development direction, please refer to `docs/plan-epubToolsV2.prompt.
 - Keeping only Python font obfuscation functionality
 - Providing both CLI and GUI interfaces
 
-### Repository Description Suggestion
-
-Consider updating the GitHub repository description to emphasize this is an independent project.
