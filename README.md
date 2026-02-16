@@ -18,7 +18,7 @@ Epub Tool->ET->E-Book Thor->📖🔨-><img src="./img/icon.ico" alt="icon" style
 
 - 版本管理：`.mise.toml` 固定 Node LTS、pnpm 10.29.3、Python 3.12、Rust stable（执行 `mise install` 同步工具链）。
 - Monorepo：`packages/core`（TS 核心库）、`packages/cli`（命令行入口）、`packages/gui`（React + Tauri 壳），辅助脚本在 `skills/` 与 `py-scripts/`。
-- 安装：`pnpm install`（已开启必需的 build scripts），GUI 开发可跑 `pnpm --filter @epub-tools/gui tauri:dev`，CLI 构建 `pnpm --filter @epub-tools/cli build`。
+- 安装：`mise run setup` 一键安装（包含工具链 + pnpm 依赖 + Python 依赖），或手动执行 `mise install` → `pnpm install` → `python -m pip install -r py-scripts/requirements.txt`。GUI 开发可跑 `pnpm --filter @epub-tools/gui tauri:dev`，CLI 构建 `pnpm --filter @epub-tools/cli build`。
 - Python sidecar：`py-scripts/` 下的 `encrypt_font.py` + `requirements.txt` 已锁定版本，后续仅作为字体混淆桥接。
 
 ## Ⅰ epub-tools介绍<br>

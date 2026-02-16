@@ -1,0 +1,7 @@
+[tasks.setup]
+description = "Install pinned toolchains and project dependencies"
+run = [
+  "mise install",
+  "pnpm install --no-frozen-lockfile",
+  "python -m pip install -r py-scripts/requirements.txt",
+]
