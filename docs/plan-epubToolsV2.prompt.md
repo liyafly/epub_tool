@@ -583,12 +583,12 @@ steps:
 ## 十三、实施计划（按 Sprint）
  
 ### Sprint 1：Monorepo 骨架 + EPUB 核心（2 天）
- 
-- [ ] 初始化 pnpm workspace monorepo
+
+- [x] 初始化 pnpm workspace monorepo
 - [ ] `packages/core`: EPUB 解析器（`jszip` + `fast-xml-parser`）
 - [ ] `packages/core`: EPUB 打包器（mimetype STORE）
-- [ ] `packages/cli`: 基础骨架 + `doctor` 命令
-- [ ] `skills/` 目录初始化 + README
+- [x] `packages/cli`: 基础骨架 + `doctor` 命令
+- [x] `skills/` 目录初始化 + README
 - [ ] 工具检测（`tool-checker.ts`）
  
 ### Sprint 2：TS 重写 — 图片 + 格式化 + 加解密（3-4 天）
