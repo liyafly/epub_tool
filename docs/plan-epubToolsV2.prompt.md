@@ -366,6 +366,7 @@ Tauri 打包时，`encrypt_font.py` + `requirements.txt` 内嵌为 sidecar 资�
 - 迁移旧式标签：将 `dtbook`/`ops` 命名空间元素替换为符合 HTML5 的语义标签，补充 `lang`、`dir`、`epub:type`。
 - 管理媒体类型：修正 CSS/JS/音视频的 `media-type`，移除过时的 `application/x-dtbook+xml`。
 - 测试策略：以现有 EPUB2 样本跑升级，检查 Adobe RMSDK/Apple Books/Thorium 打开正常，diff 确认备份与新版本并存。
+- 版本选择：EPUB 3.3（2022）是 3.2 的维护澄清版，向后兼容且规范更清晰；默认输出 3.3，必要时可降级写 3.2 以兼容老旧 RMSDK。
 
 ---
 
